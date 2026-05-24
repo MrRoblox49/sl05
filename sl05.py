@@ -132,7 +132,7 @@ if start_button:
         plt.close(fig)
 
         # Short pause to control frame rate (~30 FPS)
-        time.sleep(0.15)
+        time.sleep(0.10)
 
     st.success("Simulation finished!")
 else:
